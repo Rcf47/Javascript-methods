@@ -1,0 +1,4 @@
+Array.from();
+Array.fromAsync();
+Array.isArray();
+Array.of();
