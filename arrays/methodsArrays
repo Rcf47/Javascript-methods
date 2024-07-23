@@ -1,0 +1,39 @@
+1. push(element1, element2, element3); // new length
+2. pop(); // removed element, undefined if empty
+3. shift(); // removed element, undefined if empty
+4. unshift(element1, element2, element3); // new length 
+5. slice(start, end); // new array from start to end
+6. splice(start, deleteCount, element1, element2); // an array containing deleted elements
+7. sort((a, b) => a - b); // sort numbers in ascending order
+8. filter(callbackFn, thisArg); // shallow copy of the given array where the callbackFn returns true
+9. reverse(); // reference to the original array now reversed
+10. concat(value1, value2, value3); // new array instance
+11. join(separator); // string with all elements separated by separator
+12. indexOf(searchElement, fromIndex); // first index of searchElement -1 if not found
+13. lastIndexOf(searchElement, fromIndex); // last index of searchElement -1 if not found
+14. includes(searchElement, fromIndex); // true if searchElement is in the array
+15. find(callbackFn, thisArg); // the first element that satisfies the callbackFn
+16. findIndex(callbackFn, thisArg); // the index of the first element that satisfies the callbackFn otherwise -1
+17. findLast(callbackFn, thisArg); // the last element that satisfies the callbackFn, undefined if not found
+18. findLastIndex(callbackFn, thisArg); // the index of the last element that satisfies the callbackFn, -1 if not found
+19. flat(depth); // new array with sub-array elements concatenated into it
+20. flatMap(callbackFn, thisArg); // A new array with each element being the result of the callback function and flattened by a depth of 1.
+21. map(callbackFn, thisArg); // new array with each element being the result of the callback function
+22. reduce(callbackFn, initialValue); // The value that results from running the "reducer" callback function to completion over the entire array.
+23. reduceRight(callbackFn, initialValue);  // The value that results from the reduction.
+24. every(callbackFn, thisArg); // true if all elements satisfy the callbackFn
+25. some(callbackFn, thisArg); // true if at least one element satisfies the callbackFn
+26. forEach(callbackFn, thisArg); // call the callbackFn for each element
+27. fill(value, start, end); // fill the array with value
+28. copyWithin(target, start, end); // copy elements within the array
+29. entries(); // an array of key/value pairs
+30. keys(); // A new iterable iterator object
+31. values(); // A new iterable iterator object
+32. at(index); // the element at index
+33. with(index, value); // A new array with the element at index replaced with value.
+34. toLocaleString(locale, options); // A string representing the elements of the array.
+35. toString(); // A string representing the elements of the array.
+36. toReversed(); // A new array with the elements of the array in reverse order.
+37. toSorted(compareFn); // A new array with the elements of the array in sorted order. 
+38. toSpliced(start, deleteCount, ...items); // A new array with the elements of the array after the start deleted.
+39. [Symbol.iterator](); // A new iterable iterator object The same return value as Array.prototype.values()
