@@ -1,0 +1,6 @@
+1. hasOwnProperty(prop)
+2. isPrototypeOf(obj)
+3. propertyIsEnumerable(prop)
+4. toLocaleString()
+5. toString()
+6. valueOf()
