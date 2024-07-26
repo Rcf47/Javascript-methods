@@ -1,0 +1,3 @@
+1. String.fromCharCode(...numbers);
+2. String.fromCodePoint(...numbers);
+3. String.raw(string, ...substitutions);
